@@ -1,0 +1,150 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+  */
+ #root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  font-family: "Nunito", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000000e9;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  height: 7em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+.card {
+  padding: 2em;
+}
+
+
+.userinput {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.userinput label {
+  text-align: left;
+  display: block;
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.userinput h2 {
+  font-size: 20px;
+  color: green;
+  margin-bottom: 30px;
+}
+
+
+.userinput textarea {
+  width: 100%;
+  padding: 30px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.useraudio {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.useraudio button{
+  background-color: #c1bfbf;
+  color: #000000;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.userinput button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #dbdbdb;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.userinput button:hover {
+  border-color: #646cff;
+}
+.userinput button:focus,
+.userinput button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} 
+
+
+.useraudio label {
+  text-align: left;
+  display: block;
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+
+.start {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 0.7em;
+  font-weight: 500;
+  color: whitesmoke;
+  margin-right :30px;
+  font-family: inherit;
+  background-color: #e14343;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.recorder button:hover {
+  border-color: #646cff;
+}
+
+.stop {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 0.7em;
+  font-weight: 500;
+  margin-left : 0 auto;
+  font-family: inherit;
+  background-color: #dbdbdb;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.recorder button:hover {
+  border-color: #646cff;
+}
+
+ 
+
+  
